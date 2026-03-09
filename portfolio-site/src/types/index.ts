@@ -1,3 +1,6 @@
+export interface AuthResponse {
+  token: string;
+}
 export interface Project {
   id: number
   title: string
